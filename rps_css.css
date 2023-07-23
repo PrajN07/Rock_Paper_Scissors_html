@@ -1,0 +1,39 @@
+body{
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: arial;
+}
+.title-page{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.move-icon{
+  height: 50px;
+}
+.move-button{
+  background-color: transparent;
+  border: 3px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.result-text{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.moves{
+  mask-image: url(rps\ images/) ;
+}
+
+.reset{
+  font-size: 15px;
+  border: none;
+  padding: 8px 15px;
+  cursor: poin ter;
+}
